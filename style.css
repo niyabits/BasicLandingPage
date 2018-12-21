@@ -1,0 +1,65 @@
+body {
+			margin: 0;
+			font-family: arial;
+		}
+
+		nav {
+			padding: 20px;
+			background-color: rgba(0,0,0,0.8);
+			position: fixed;
+			width: 100%;
+		}
+
+		nav a {
+			text-decoration: none;
+			margin-left: 20px;
+			color: white;
+		}
+
+		nav a:hover {
+			color: rgba(0,180,255,0.8);
+			transition: 0.5s;
+		}
+
+		nav:hover {
+			background-color: rgba(0,0,0,1);
+			transition: 0.9s;
+		}
+
+		#main-text {
+			margin-right: 35px;
+			cursor: default;
+		}
+
+		#section-1 {
+			background-image: url('image.jpg');
+		}
+
+		#section-1 h1, #section-1 p {
+			position: absolute;
+			margin-top: 45vh;
+			margin-left: 45vw;
+			color: white;
+		}
+
+		#about h1{
+			color: black;		
+		}
+
+		.section {
+			height: 100vh;
+		}
+
+		#about {
+			color: black;
+		}
+
+		#about h1 {
+			padding-top: 45vh;
+		}
+
+		.center {
+			align-items: center;
+			text-align: center;
+			justify-content: center;
+		}
